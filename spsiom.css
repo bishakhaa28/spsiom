@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: grey;
+}
+.container{
+    width: 960px;
+    background: white;
+    margin: 0 auto;
+}
+
+header{
+    border-bottom: 10px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.contact p{
+    color: rgb(24, 113, 229);
+    font-size: 18px;
+}
+
+.contact p a{
+    color: rgb(24, 113, 229);
+    text-decoration: none;
+}
+
+.contact p a:hover{
+    color: maroon;
+    text-decoration: underline;
+}
+
+.contact a img{
+    padding-bottom: 5px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a.active{
+    background-color: grey;
+    color: red;
+}
+nav ul li a:hover{
+    background-color: grey;
+    color: blue;
+}
+.hero-section img{
+    width: 100%;
+}
+.wrapper {
+    padding: 20px 30px;
+    display: flex;
+}
+.paragraph{
+    width: 70%;
+    border-right: 1px dotted grey;
+    padding: 20px;
+}
+.lists{
+    padding: 20px;
+    width: 30%;
+}
+.lists ul{
+    list-style: none;
+}
